@@ -7,6 +7,7 @@ dependency:
   options:
     role-file: molecule/default/requirements.yml
     roles-path: molecule/default/roles
+    force: true
 
 driver:
   name: docker
